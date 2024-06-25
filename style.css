@@ -24,6 +24,10 @@ body {
   color: #e55065;
 }
 
+.text-secondary {
+  color: #8e8284;
+}
+
 .btn.btn-default {
   border: 1px solid #e55065;
   color: #e55065;

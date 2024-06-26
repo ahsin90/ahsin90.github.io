@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Javascript",
+    "image": "./images/icons/js.png"
+  },
+  {
+    "name": "Node.js",
+    "image": "./images/icons/nodejs.png"
+  },
+  {
+    "name": "TypeScript",
+    "image": "./images/icons/typescript.png"
+  },
+  {
+    "name": "PHP",
+    "image": "./images/icons/php.png"
+  },
+  {
+    "name": "Express.js",
+    "image": "./images/icons/expressjs.png"
+  },
+  {
+    "name": "React.js",
+    "image": "./images/icons/reactjs.png"
+  },
+  {
+    "name": "Next.js",
+    "image": "./images/icons/nextjs.png"
+  },
+  {
+    "name": "Nuxt.js",
+    "image": "./images/icons/nuxtjs.png"
+  },
+  {
+    "name": "JQuery",
+    "image": "./images/icons/jquery.png"
+  },
+  {
+    "name": "Bootstrap",
+    "image": "./images/icons/bootstrap.png"
+  },
+  {
+    "name": "Tailwind",
+    "image": "./images/icons/tailwind.png"
+  },
+  {
+    "name": "Laravel",
+    "image": "./images/icons/laravel.png"
+  },
+  {
+    "name": "MySQL",
+    "image": "./images/icons/mysql.png"
+  },
+  {
+    "name": "Mongodb",
+    "image": "./images/icons/mongodb.png"
+  },
+  {
+    "name": "Redis",
+    "image": "./images/icons/redis.png"
+  },
+  {
+    "name": "Docker",
+    "image": "./images/icons/docker.png"
+  },
+  {
+    "name": "Nginx",
+    "image": "./images/icons/nginx.png"
+  },
+  {
+    "name": "Linux",
+    "image": "./images/icons/linux.png"
+  },
+  {
+    "name": "Git",
+    "image": "./images/icons/git.png"
+  },
+  {
+    "name": "Google Cloud Platform",
+    "image": "./images/icons/gcp.png"
+  }
+]

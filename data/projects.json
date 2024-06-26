@@ -1,5 +1,14 @@
 [
   {
+    "title": "99 Froggs Community of Experts",
+    "thumbnail": "",
+    "description": "99 Froggs is a platform to manage organizations, members, projects, and events. Developed using some stacks such as Vue.js, Nuxt.Js, HTML, CSS, Tailwind, Nest.Js, MySQL, Docker, etc.",
+    "client": "99 Froggs",
+    "year": 2024,
+    "location": "Netherlands",
+    "url": "https://app.99froggs.com/"
+  },
+  {
     "title": "Just2bfit Manager System",
     "thumbnail": "",
     "description": "Just2bfit Manager is an application designed to oversee Just2bfit's content, including statistical dashboards, newsletter management, organization management, and more. It was built using Node.js, Express.js, MySQL, Redis, Nuxt.js, Docker, and other technologies.",
@@ -16,6 +25,114 @@
     "year": 2023,
     "location": "Netherlands",
     "url": "https://cms.j2b.fit"
+  },
+  {
+    "title": "Just2bfit BYV",
+    "thumbnail": "",
+    "description": "Just2bfit BYV are web and mobile platforms designed to distribute content to members worldwide, tailored by region and language.",
+    "client": "Just2bfit",
+    "year": 2023,
+    "location": "Netherlands",
+    "url": "https://just2bfit-byv.com/"
+  },
+  {
+    "title": "Working Time Registration",
+    "thumbnail": "",
+    "description": "Working Time Registration is an application that aims to manage employee working hours at the hemlock company in the Netherlands. The features of this application consist of recording working hours, leave, recapitulation, etc.",
+    "client": "Hemlock",
+    "year": 2023,
+    "location": "Netherlands",
+    "url": ""
+  },
+  {
+    "title": "Just2bfit Data Warehouse",
+    "thumbnail": "",
+    "description": "Just2bfit Data Warehouse is a back-end service to store and provide the data that is displayed on the dashboard. Developed using serverless computing frameworks by Google Cloud Functions.",
+    "client": "Just2bfit",
+    "year": 2023,
+    "location": "Netherlands",
+    "url": ""
+  },
+  {
+    "title": "Just2bfit Cache Manager",
+    "thumbnail": "",
+    "description": "Just2bfit Cache Manager is a back-end service to cache all of Just2bfit CMS data and distribute it to multiple regions worldwide.",
+    "client": "Just2bfit",
+    "year": 2023,
+    "location": "Netherlands",
+    "url": ""
+  },
+  {
+    "title": "Satu Data",
+    "thumbnail": "",
+    "description": "Satu Data is a platform by the Aceh Provincial Government for managing data from all regencies and departments before it is published to Open Data. This is dynamic application allows administrators to create forms dynamically. Satu data also integrated with several services, such as CKAN Open Data and Singgle Sign On, On this project i have been worked independently and deliver high-quality work. It was developed using Javascript, Node.js, React.js, Next.js, HTML, CSS, MySQL, Redis, Docker, and other technologies.",
+    "client": "Aceh Provincial Government",
+    "year": 2023,
+    "location": "Banda Aceh, Indonesia",
+    "url": "https://satudata.acehprov.go.id"
+  },
+  {
+    "title": "HABA",
+    "thumbnail": "",
+    "description": "The government application serves as a hub for information on government affairs, tourism, health, natural disasters, security, and transportation.",
+    "client": "Aceh Provincial Government",
+    "year": 2019,
+    "location": "Banda Aceh, Indonesia",
+    "url": "https://haba.acehprov.go.id"
+  },
+  {
+    "title": "PPID",
+    "thumbnail": "",
+    "description": "The Information and Documentation Management Officer (PPID) is an officer responsible for the storage, documentation, and/or service of information in public bodies.",
+    "client": "Aceh Provincial Government",
+    "year": 2018,
+    "location": "Banda Aceh, Indonesia",
+    "url": "https://ppid.acehprov.go.id"
+  },
+  {
+    "title": "PPID Multiple Sites",
+    "thumbnail": "",
+    "description": "A part of The Information and Documentation Management Officer (PPID) to manage multiple websites and domains for 23 different regencies, with each regency having its own unique domain and customized UI/UX.",
+    "client": "Aceh Provincial Government",
+    "year": 2019,
+    "location": "Banda Aceh, Indonesia",
+    "url": "https://ppid.acehprov.go.id"
+  },
+  {
+    "title": "PPID Integrated With Esign BSrE BSSN",
+    "thumbnail": "",
+    "description": "Integrating the PPID system with the national Esign BSrE BSSN system, where every documents published by PPID can be digitally signed. This integration was carried out using a RESTful API.",
+    "client": "Aceh Provincial Government",
+    "year": 2019,
+    "location": "Banda Aceh, Indonesia",
+    "url": "https://ppid.acehprov.go.id"
+  },
+  {
+    "title": "DALAE",
+    "thumbnail": "",
+    "description": "A system designed to aggregate news and articles from government websites in Aceh and will be utilized to generate reports and graphs based on the collected data.",
+    "client": "Aceh Provincial Government",
+    "year": 2020,
+    "location": "Banda Aceh, Indonesia",
+    "url": "https://dalae.acehprov.go.id"
+  },
+  {
+    "title": "Electronic Theses and Dissertation",
+    "thumbnail": "",
+    "description": "A hight performance application designed to manage digital files of theses and dissertations, utilized by tens of thousands of students, lecturers, and researchers. Students are required to upload their theses or dissertations after their final exams.",
+    "client": "Syiah Kuala University",
+    "year": 2013,
+    "location": "Banda Aceh, Indonesia",
+    "url": "https://etd.usk.ac.id/"
+  },
+  {
+    "title": "Digital Library",
+    "thumbnail": "",
+    "description": "A digital library to manage all collections, library circulation and reporting in university. Developed using PHP, MySQL, Bootstrap, etc",
+    "client": "Syiah Kuala University",
+    "year": 2013,
+    "location": "Banda Aceh, Indonesia",
+    "url": "https://pustaka.feb.usk.ac.id/"
   },
   {
     "title": "USK Union Catalogue",

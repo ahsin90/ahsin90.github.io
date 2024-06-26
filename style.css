@@ -21,11 +21,15 @@ body {
 }
 
 .text-primary {
-  color: #e55065;
+  color: #0892a8;
 }
 
 .text-secondary {
   color: #8e8284;
+}
+
+.bg-primary {
+  background-color: #0892a8;
 }
 
 .btn.btn-default {

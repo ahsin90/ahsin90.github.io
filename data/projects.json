@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Just2bfit Manager System",
+    "thumbnail": "",
+    "description": "Just2bfit Manager is an application designed to oversee Just2bfit's content, including statistical dashboards, newsletter management, organization management, and more. It was built using Node.js, Express.js, MySQL, Redis, Nuxt.js, Docker, and other technologies.",
+    "client": "Just2bfit",
+    "year": 2023,
+    "location": "Netherlands",
+    "url": "https://manager.j2b.fit"
+  },
+  {
+    "title": "Just2bfit Content Management System",
+    "thumbnail": "",
+    "description": "The Content Management System (CMS) is a tool for overseeing Just2bfit's content, such as posts, pages, videos, recipes, and more. It supports multiple languages and was created using Node.js, Express.js, MySQL, Redis, Nuxt.js, and Docker.",
+    "client": "Just2bfit",
+    "year": 2023,
+    "location": "Netherlands",
+    "url": "https://cms.j2b.fit"
+  },
+  {
+    "title": "USK Union Catalogue",
+    "thumbnail": "",
+    "description": "The aim is to make it easier to search catalogs in each library at Syiah Kuala University.",
+    "client": "Syiah Kuala University",
+    "year": 2012,
+    "location": "Aceh, Indonesia",
+    "url": "https://uilis.usk.ac.id/uuc/"
+  }
+]

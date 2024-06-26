@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <title>Muhammad Ahsin</title>
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css"
@@ -11,545 +11,426 @@
     />
     <link href="./style.css" rel="stylesheet" />
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+
+    <script
+      src="https://unpkg.com/react@18/umd/react.development.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/@babel/standalone@7.10.3/babel.min.js"
+      crossorigin
+    ></script>
   </head>
+
   <body>
-    <div class="header-shape"></div>
-    <div class="container lg:max-w-screen-lg mx-auto mt-10">
-      <section>
-        <div
-          class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6 md:gap-12 mt-32"
-        >
-          <div class="flex p-8 md:p-4 justify-center items-center">
-            <img
-              alt="Muhammad Ahsin"
-              width="100"
-              height="100"
-              decoding="async"
-              style="color: transparent; width: 100%; height: auto"
-              src="./images/me-radial.png"
-            />
+    <div id="root"></div>
+
+    <script type="text/babel" data-presets="react,stage-3">
+      const Main = () => {
+        return (
+          <div>
+            <div className="header-shape"></div>
+            <div className="container lg:max-w-screen-lg mx-auto mt-10">
+              <Header />
+              <Skills />
+              <Experiences />
+            </div>
           </div>
-          <div class="col-span-2 flex items-center p-5">
-            <div>
-              <!-- <h3 class="text-2xl text-secondary">Hi there!</h3> -->
-              <h1
-                class="text-primary text-xl md:text-5xl lg:text-5xl text-left font-thin"
-              >
-                Muhammad Ahsin
+        );
+      };
+
+      const Header = () => {
+        return (
+          <section>
+            <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6 md:gap-12 mt-32">
+              <div className="flex p-8 md:p-4 justify-center items-center">
+                <img
+                  alt="Muhammad Ahsin"
+                  width="100"
+                  height="100"
+                  decoding="async"
+                  style={{ width: "100%", height: "auto" }}
+                  src="./images/me-radial.png"
+                />
+              </div>
+              <div className="col-span-2 flex items-center p-5">
+                <div>
+                  <h1 className="text-primary text-xl md:text-5xl lg:text-5xl text-left font-thin">
+                    Muhammad Ahsin
+                  </h1>
+                  <p className="mt-4 text-md text-secondary text-justify">
+                    Dedicated full-stack engineer with a career in software
+                    development since 2012. Experienced in developing and
+                    delivering high-quality web applications, designing
+                    databases, modern front-end, implement core business logic,
+                    efficient, secure and scalable applications. I've
+                    contributed to some kinds of projects, such as governance,
+                    business, nonprofit, educational and beyond.
+                  </p>
+
+                  <p className="mt-4 text-md text-secondary text-justify">
+                    I am currently working remotely for <b>DXY Global</b> in the
+                    <b>Netherlands</b>, where I contribute to both front-end and
+                    back-end development.
+                  </p>
+                  <h3 className="mt-4 font-bold">Banda Aceh, Indonesia</h3>
+                </div>
+              </div>
+            </div>
+          </section>
+        );
+      };
+
+      const Skills = () => {
+        const [skills, setSkills] = React.useState([
+          {
+            name: "Javascript",
+            image: "./images/icons/js.png",
+          },
+          {
+            name: "Node.js",
+            image: "./images/icons/nodejs.png",
+          },
+          {
+            name: "TypeScript",
+            image: "./images/icons/typescript.png",
+          },
+          {
+            name: "PHP",
+            image: "./images/icons/php.png",
+          },
+          {
+            name: "Express.js",
+            image: "./images/icons/expressjs.png",
+          },
+          {
+            name: "React.js",
+            image: "./images/icons/reactjs.png",
+          },
+          {
+            name: "Next.js",
+            image: "./images/icons/nextjs.png",
+          },
+          {
+            name: "Nuxt.js",
+            image: "./images/icons/nuxtjs.png",
+          },
+          {
+            name: "JQuery",
+            image: "./images/icons/jquery.png",
+          },
+          {
+            name: "Bootstrap",
+            image: "./images/icons/bootstrap.png",
+          },
+          {
+            name: "Tailwind",
+            image: "./images/icons/tailwind.png",
+          },
+          {
+            name: "Laravel",
+            image: "./images/icons/laravel.png",
+          },
+          {
+            name: "MySQL",
+            image: "./images/icons/mysql.png",
+          },
+          {
+            name: "Mongodb",
+            image: "./images/icons/mongodb.png",
+          },
+          {
+            name: "Redis",
+            image: "./images/icons/redis.png",
+          },
+          {
+            name: "Docker",
+            image: "./images/icons/docker.png",
+          },
+          {
+            name: "Nginx",
+            image: "./images/icons/nginx.png",
+          },
+          {
+            name: "Linux",
+            image: "./images/icons/linux.png",
+          },
+          {
+            name: "Git",
+            image: "./images/icons/git.png",
+          },
+          {
+            name: "Google Cloud Platform",
+            image: "./images/icons/gcp.png",
+          },
+        ]);
+
+        return (
+          <>
+            <section className="mt-10 mb-10">
+              <h1 className="text-4xl text-secondary font-bold text-center">
+                Technical <span className="font-thin">Skills</span>
               </h1>
-              <p class="mt-4 text-md text-secondary text-justify">
-                Dedicated full-stack engineer with a career in software
-                development since 2012. Experienced in developing and delivering
-                high-quality web applications, designing databases, modern
-                front-end, implement core business logic, efficient, secure and
-                scalable applications. I've contributed to some kinds of
-                projects, such as governance, business, nonprofit, educational
-                and beyond.
+              <p className="text-center text-secondary">
+                These are several of technologies that i used on my projects, i
+                always adapt with the clients needs
               </p>
 
-              <p class="mt-4 text-md text-secondary text-justify">
-                I am currently working remotely for <b>DXY Global</b> in the
-                <b>Netherlands</b>, where I contribute to both front-end and
-                back-end development.
-              </p>
+              <div className="mt-4">
+                <div className="gap-4 flex flex-wrap justify-center">
+                  {skills.map((skill) => {
+                    return (
+                      <div key={Math.random()}>
+                        <div className="flex justify-center items-center bg-gray-100 h-16 p-3 drop-shadow-lg rounded-md">
+                          <img
+                            alt={skill.name}
+                            width="50"
+                            height="50"
+                            src={skill.image}
+                          />
+                          <h4 className="text-left pl-2 pr-2">{skill.name}</h4>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            </section>
+          </>
+        );
+      };
 
-              <h3 class="mt-4 font-bold">Banda Aceh, Indonesia</h3>
-            </div>
-          </div>
-        </div>
-      </section>
+      const Experiences = () => {
+        const [experiences, setExperiences] = React.useState([
+          {
+            id: 1,
+            title: "Full-Stack Engineer",
+            company: "DXY Global",
+            location: "Netherlands",
+            periodStart: "Sep 2022",
+            periodEnd: "Present",
+            stacks: [
+              "Node.js",
+              "TypeScript",
+              "Express.js",
+              "Nest.js",
+              "Vue.js",
+              "Nuxt.js",
+              "MySQL",
+              "Redis",
+              "RESTful API",
+              "HTML",
+              "CSS",
+              "Tailwind",
+              "Google Cloud Platform",
+              "S3 Storage",
+              "Docker",
+              "Gitlab CI/CD",
+            ],
+            duties: [
+              "Develop microservices back-end using RESTful API",
+              "Develop the front-end and integrate it with the back-end",
+              "Integrated the system with third-party services",
+              "Setup Linux server and Docker",
+              "Setup pipeline for development using Gitlab CI/CD",
+              "Increase security on the back-end and front-end (i.e., SQL Injection, CORS, CSP, etc.)",
+            ],
+          },
+          {
+            id: 2,
+            title: "Full-Stack Engineer",
+            company: "PT. Abinitio Inovasi Teknologi",
+            location: "Jakarta",
+            periodStart: "Aug 2021",
+            periodEnd: "Jan 2022",
+            stacks: [
+              "PHP",
+              "Laravel",
+              "Go",
+              "Javascript",
+              "JQuery",
+              "MySQL",
+              "Redis",
+              "Node.js",
+              "HTML",
+              "CSS",
+              "Bootstrap",
+              "Google Cloud Platform",
+              "S3 Storage",
+              "Linux",
+              "Docker",
+              "Docker Swarm",
+              "Gitlab CI/CD",
+            ],
+            duties: [
+              "Develop micro services applications (Back-end and Front-end)",
+              "Integrated the system with other services (i.e., Payment gateway, Google services, etc.)",
+              "Setup Linux server and Docker",
+              "Setup pipeline using Gitlab CI/CD",
+              "Increase security on the back-end and front-end (i.e., SQL Injection, CORS, CSP, etc.)",
+            ],
+          },
+          {
+            id: 3,
+            title: "Full-Stack Engineer",
+            company:
+              "Department of Communication, Information Technology & Encryption of the Aceh Provincial Government",
+            location: "Aceh",
+            periodStart: "Jun 2019",
+            periodEnd: "Dec 2021",
+            stacks: [
+              "Node.js",
+              "PHP",
+              "Laravel",
+              "Codeigniter",
+              "Javascript",
+              "TypeScript",
+              "React.js",
+              "Next.js",
+              "MySQL",
+              "MongoDB",
+              "Object Storage",
+              "Docker",
+              "Gitlab CI/CD",
+              "Linux",
+              "HTML",
+              "CSS",
+              "Bootstrap",
+              "Tailwind",
+            ],
+            duties: [
+              "Developed applications for several departments",
+              "Integrated the system with other departments services using RESTful API",
+              "Integrated the system with third-party services",
+              "Maintenance the systems",
+              "Setup pipeline using Gitlab CI/CD",
+              "Setup linux server",
+              "Increase security on the back-end and front-end (i.e., SQL Injection, CORS, CSP, etc.)",
+            ],
+          },
+          {
+            id: 3,
+            title: "Software Engineer",
+            company:
+              "Banda Aceh City Agency of Personnel and Human Resources Development",
+            location: "Banda Aceh, Indonesia",
+            periodStart: "May 2015",
+            periodEnd: "Jun 2019",
+            stacks: [
+              "PHP",
+              "Codeigniter",
+              "Javascript",
+              "HTML",
+              "CSS",
+              "Bootstrap",
+              "JQuery",
+              "MySQL",
+              "RESTFul API",
+              "MongoDB",
+              "Adobe Photoshop",
+              "Linux",
+              "Proxmox Virtualization",
+            ],
+            duties: [
+              "Designed, developed and implemented several applications for internal and external users",
+              "Integrated the system with third-party services",
+              "Setup linux server",
+              "Maintenance the system",
+            ],
+          },
+          {
+            id: 4,
+            title: "Software Engineer",
+            company: "Syiah Kuala University",
+            location: "Banda Aceh, Indonesia",
+            periodStart: "March 2012",
+            periodEnd: "Jun 2014",
+            stacks: [
+              "PHP",
+              "Codeigniter",
+              "Javascript",
+              "JQuery",
+              "MySQL",
+              "Linux",
+              "HTML",
+              "CSS",
+              "Bootstrap",
+              "Proxmox Virtualization",
+              "Samba File Sharing",
+            ],
+            duties: [
+              "Designed, developed and implemented high performance of Electronic Theses and Dissertations that using by students, lecturers and researchers",
+              "Establishing and managing a Linux server that operates the system",
+              "Integrated the system with other departments services using RESTful API",
+              "Integrated the system with third-party services",
+              "Maintenance the system",
+              "Increase security on the back-end and front-end (i.e., SQL Injection, CORS, etc.).",
+            ],
+          },
+        ]);
+        return (
+          <>
+            <section className="mt-10 mb-10">
+              <h1 className="text-4xl text-secondary font-bold text-center">
+                Professional <span className="font-thin">Experiences</span>
+              </h1>
+              <div className="mt-5">
+                {experiences.map((ex) => {
+                  return (
+                    <div
+                      key={Math.random()}
+                      className="gap-2 flex justify-center items-center mb-4"
+                    >
+                      <div className="flex-none w-24 p-2 border border-gray-500 text-secondary text-center">
+                        {ex.periodStart}
+                        <br />
+                        &darr;
+                        <br />
+                        {ex.periodEnd}
+                      </div>
+                      <div className="w-5 h-5 border border-gray-500 rounded-full"></div>
+                      <div className="grow p-2 border-l border-gray-500">
+                        <h1 className="text-2xl">{ex.title}</h1>
+                        <h2 className="text-md">
+                          {ex.company}, {ex.location}
+                        </h2>
+                        <h3>
+                          <b>Tech stacks:</b>
+                        </h3>
+                        <div className="flex flex-wrap gap-1">
+                          {ex.stacks.map((s) => {
+                            return (
+                              <div
+                                key={Math.random()}
+                                className="flex justify-center items-center bg-gray-200 text-gray-400 px-2 py-px text-xs font-thin rounded-md"
+                              >
+                                {s}
+                              </div>
+                            );
+                          })}
+                        </div>
+                        <h2 className="mt-2">Duties:</h2>
+                        <ol className="px-4 text-secondary">
+                          {ex.duties.map((s) => {
+                            return <li key={Math.random()}>{s}</li>;
+                          })}
+                        </ol>
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            </section>
+          </>
+        );
+      };
 
-      <!-- Educations -->
-      <section></section>
-      <!-- ./Educations -->
-
-      <!-- skills -->
-      <section class="mt-10 mb-10">
-        <h1 class="text-4xl text-secondary font-bold text-center">
-          Technical <span class="font-thin">Skills</span>
-        </h1>
-        <p class="text-center text-secondary">
-          These are several of technologies that i used on my projects, i always
-          adapt with the clients needs
-        </p>
-
-        <!-- languages -->
-        <div class="mt-4">
-          <div class="gap-4 flex flex-wrap justify-center">
-            <!-- skill item -->
-            <div
-              class="flex justify-center items-center bg-gray-100 h-16 p-3 drop-shadow-lg rounded-md"
-            >
-              <img
-                alt="Javascript"
-                width="50"
-                height="50"
-                src="./images/icons/js.png"
-              />
-              <h4 class="text-left pl-2 pr-2">Javascript</h4>
-            </div>
-            <!-- ./skill item -->
-
-            <!-- skill item -->
-            <div
-              class="flex justify-center items-center bg-gray-100 h-16 p-3 drop-shadow-lg rounded-md"
-            >
-              <img
-                alt="nodejs"
-                width="50"
-                height="50"
-                src="./images/icons/nodejs.png"
-              />
-              <h4 class="text-left pl-2 pr-2">Node.Js</h4>
-            </div>
-            <!-- ./skill item -->
-
-            <!-- skill item -->
-            <div
-              class="flex justify-center items-center bg-gray-100 h-16 p-3 drop-shadow-lg rounded-md"
-            >
-              <img
-                alt="TypeScript"
-                width="50"
-                height="50"
-                src="./images/icons/typescript.png"
-              />
-              <h4 class="text-left pl-2 pr-2">TypeScript</h4>
-            </div>
-            <!-- ./skill item -->
-
-            <!-- skill item -->
-            <div
-              class="flex justify-center items-center bg-gray-100 h-16 p-3 drop-shadow-lg rounded-md"
-            >
-              <img
-                alt="PHP"
-                width="50"
-                height="50"
-                src="./images/icons/php.png"
-              />
-              <h4 class="text-left pl-2 pr-2">PHP</h4>
-            </div>
-            <!-- ./skill item -->
-
-            <!-- skill item -->
-            <div
-              class="flex justify-center items-center bg-gray-100 h-16 p-3 drop-shadow-lg rounded-md"
-            >
-              <img
-                alt="Express.js"
-                width="50"
-                height="50"
-                src="./images/icons/expressjs.png"
-              />
-              <h4 class="text-left pl-2 pr-2">Express.js</h4>
-            </div>
-            <!-- ./skill item -->
-
-            <!-- skill item -->
-            <div
-              class="flex justify-center items-center bg-gray-100 h-16 p-3 drop-shadow-lg rounded-md"
-            >
-              <img
-                alt="React.js"
-                width="50"
-                height="50"
-                src="./images/icons/reactjs.png"
-              />
-              <h4 class="text-left pl-2 pr-2">React.js</h4>
-            </div>
-            <!-- ./skill item -->
-
-            <!-- skill item -->
-            <div
-              class="flex justify-center items-center bg-gray-100 h-16 p-3 drop-shadow-lg rounded-md"
-            >
-              <img
-                alt="Next.js"
-                width="50"
-                height="50"
-                src="./images/icons/nextjs.png"
-              />
-              <h4 class="text-left pl-2 pr-2">Next.js</h4>
-            </div>
-            <!-- ./skill item -->
-
-            <!-- skill item -->
-            <div
-              class="flex justify-center items-center bg-gray-100 h-16 p-3 drop-shadow-lg rounded-md"
-            >
-              <img
-                alt="Nuxt.js"
-                width="50"
-                height="50"
-                src="./images/icons/nuxtjs.png"
-              />
-              <h4 class="text-left pl-2 pr-2">Nuxt.js</h4>
-            </div>
-            <!-- ./skill item -->
-
-            <!-- skill item -->
-            <div
-              class="flex justify-center items-center bg-gray-100 h-16 p-3 drop-shadow-lg rounded-md"
-            >
-              <img
-                alt="JQuery"
-                width="50"
-                height="50"
-                src="./images/icons/jquery.png"
-              />
-              <h4 class="text-left pl-2 pr-2">JQuery</h4>
-            </div>
-            <!-- ./skill item -->
-
-            <!-- skill item -->
-            <div
-              class="flex justify-center items-center bg-gray-100 h-16 p-3 drop-shadow-lg rounded-md"
-            >
-              <img
-                alt="Bootstrap"
-                width="50"
-                height="50"
-                src="./images/icons/bootstrap.png"
-              />
-              <h4 class="text-left pl-2 pr-2">Bootstrap</h4>
-            </div>
-            <!-- ./skill item -->
-
-            <!-- skill item -->
-            <div
-              class="flex justify-center items-center bg-gray-100 h-16 p-3 drop-shadow-lg rounded-md"
-            >
-              <img
-                alt="Tailwind"
-                width="50"
-                height="50"
-                src="./images/icons/tailwind.png"
-              />
-              <h4 class="text-left pl-2 pr-2">Tailwind</h4>
-            </div>
-            <!-- ./skill item -->
-
-            <!-- skill item -->
-            <div
-              class="flex justify-center items-center bg-gray-100 h-16 p-3 drop-shadow-lg rounded-md"
-            >
-              <img
-                alt="Laravel"
-                width="50"
-                height="50"
-                src="./images/icons/laravel.png"
-              />
-              <h4 class="text-left pl-2 pr-2">Laravel</h4>
-            </div>
-            <!-- ./skill item -->
-
-            <!-- skill item -->
-            <div
-              class="flex justify-center items-center bg-gray-100 h-16 p-3 drop-shadow-lg rounded-md"
-            >
-              <img
-                alt="MySQL"
-                width="50"
-                height="50"
-                src="./images/icons/mysql.png"
-              />
-              <h4 class="text-left pl-2 pr-2">MySQL</h4>
-            </div>
-            <!-- ./skill item -->
-
-            <!-- skill item -->
-            <div
-              class="flex justify-center items-center bg-gray-100 h-16 p-3 drop-shadow-lg rounded-md"
-            >
-              <img
-                alt="MongoDB"
-                width="50"
-                height="50"
-                src="./images/icons/mongodb.png"
-              />
-              <h4 class="text-left pl-2 pr-2">MongoDB</h4>
-            </div>
-            <!-- ./skill item -->
-
-            <!-- skill item -->
-            <div
-              class="flex justify-center items-center bg-gray-100 h-16 p-3 drop-shadow-lg rounded-md"
-            >
-              <img
-                alt="Redis"
-                width="50"
-                height="50"
-                src="./images/icons/redis.png"
-              />
-              <h4 class="text-left pl-2 pr-2">Redis</h4>
-            </div>
-            <!-- ./skill item -->
-
-            <!-- skill item -->
-            <div
-              class="flex justify-center items-center bg-gray-100 h-16 p-3 drop-shadow-lg rounded-md"
-            >
-              <img
-                alt="Docker"
-                width="50"
-                height="50"
-                src="./images/icons/docker.png"
-              />
-              <h4 class="text-left pl-2 pr-2">Docker</h4>
-            </div>
-            <!-- ./skill item -->
-
-            <!-- skill item -->
-            <div
-              class="flex justify-center items-center bg-gray-100 h-16 p-3 drop-shadow-lg rounded-md"
-            >
-              <img
-                alt="Nginx"
-                width="50"
-                height="50"
-                src="./images/icons/nginx.png"
-              />
-              <h4 class="text-left pl-2 pr-2">Nginx</h4>
-            </div>
-            <!-- ./skill item -->
-
-            <!-- skill item -->
-            <div
-              class="flex justify-center items-center bg-gray-100 h-16 p-3 drop-shadow-lg rounded-md"
-            >
-              <img
-                alt="Linux"
-                width="50"
-                height="50"
-                src="./images/icons/linux.png"
-              />
-              <h4 class="text-left pl-2 pr-2">Linux</h4>
-            </div>
-            <!-- ./skill item -->
-
-            <!-- skill item -->
-            <div
-              class="flex justify-center items-center bg-gray-100 h-16 p-3 drop-shadow-lg rounded-md"
-            >
-              <img
-                alt="GIT"
-                width="50"
-                height="50"
-                src="./images/icons/git.png"
-              />
-              <h4 class="text-left pl-2 pr-2">GIT</h4>
-            </div>
-            <!-- ./skill item -->
-
-            <!-- skill item -->
-            <div
-              class="flex justify-center items-center bg-gray-100 h-16 p-3 drop-shadow-lg rounded-md"
-            >
-              <img
-                alt="GCP"
-                width="50"
-                height="50"
-                src="./images/icons/gcp.png"
-              />
-              <h4 class="text-left pl-2 pr-2">Google Cloud Platform</h4>
-            </div>
-            <!-- ./skill item -->
-          </div>
-        </div>
-      </section>
-      <!-- ./Skills -->
-
-      <!-- Experiences -->
-      <section class="mt-10 mb-10">
-        <h1 class="text-4xl text-secondary font-bold text-center">
-          Professional <span class="font-thin">Experiences</span>
-        </h1>
-        <div class="mt-5">
-          <!-- list -->
-          <div class="gap-2 flex justify-center items-center mb-4">
-            <div
-              class="flex-none w-24 p-2 border border-gray-500 text-secondary text-center"
-            >
-              Sep 2022 <br />&darr;<br />
-              Present
-            </div>
-            <div class="w-5 h-5 border border-gray-500 rounded-full"></div>
-            <div class="grow p-2 border-l border-gray-500">
-              <h1 class="text-2xl">Full-Stack Engineer</h1>
-              <h2 class="text-md">DXY Global, Netherlands</h2>
-              <p class="text-secondary">
-                <b>Tech stacks:</b> <br />
-                Node.js, TypeScript, express.js, Nest.js, Vue.js, Nuxt.js,
-                MySQL, Redis, RESTful API, HTML, CSS, Tailwind, Google Cloud
-                Platform, S3 Storage, Docker, Gitlab CI/CD
-              </p>
-              <h2 class="mt-2">Duties:</h2>
-              <ol class="px-4 text-secondary">
-                <li>
-                  Develop microservices back-end using RESTful API standard.
-                </li>
-                <li>
-                  Develop the front-end and integrate it with the back-end
-                </li>
-                <li>Setup Linux server and Docker</li>
-                <li>Setup CI/CD for development using Gitlab</li>
-                <li>
-                  Increase security on the back-end and front-end (i.e., SQL
-                  Injection, CORS, CSP, etc.).
-                </li>
-              </ol>
-            </div>
-          </div>
-          <!-- ./list -->
-
-          <!-- list -->
-          <div class="gap-2 flex justify-center items-center mb-4">
-            <div
-              class="flex-none w-24 p-2 border border-gray-500 text-secondary text-center"
-            >
-              Aug 2021 <br />&darr;<br />
-              Jan 2022
-            </div>
-            <div class="w-5 h-5 border border-gray-500 rounded-full"></div>
-            <div class="grow p-2 border-l border-gray-500">
-              <h1 class="text-2xl">Full-Stack Engineer</h1>
-              <h2 class="text-md">PT. Abinitio Inovasi Teknologi, Jakarta</h2>
-              <p class="text-secondary">
-                <b>Tech stacks:</b> <br />
-                PHP, Laravel, Javascript, JQuery, MySQL, Redis, Node.js, HTML,
-                CSS, Bootstrap, Google Cloud Platform, S3 Storage, Docker,
-                Docker Swarm, Gitlab CI/CD
-              </p>
-              <h2 class="mt-2">Duties:</h2>
-              <ol class="px-4 text-secondary">
-                <li>
-                  Develop micro services applications (Back-end and Front-end)
-                </li>
-                <li>
-                  Integrated the system with other services (i.e., Payment
-                  gateway, Google services, etc.).
-                </li>
-                <li>Maintenance Linux server and Docker</li>
-                <li>Setup pipeline using Gitlab CI/CD</li>
-                <li>
-                  Increase security on the back-end and front-end (i.e., SQL
-                  Injection, CORS, CSP, etc.).
-                </li>
-              </ol>
-            </div>
-          </div>
-          <!-- ./list -->
-
-          <!-- list -->
-          <div class="gap-2 flex justify-center items-center mb-4">
-            <div
-              class="flex-none w-24 p-2 border border-gray-500 text-secondary text-center"
-            >
-              Jun 2019<br />&darr;<br />Dec 2021
-            </div>
-            <div class="w-5 h-5 border border-gray-500 rounded-full"></div>
-            <div class="grow p-2 border-l border-gray-500">
-              <h1 class="text-2xl">Full-Stack Engineer</h1>
-              <h2 class="text-md">
-                Department of Communication, Information Technology & Encryption
-                of the Aceh Provincial Government
-              </h2>
-              <p class="text-secondary">
-                <b>Tech stacks:</b> <br />
-                Node.js, PHP, Laravel, Codeigniter, Javascript, TypeScript,
-                React.js, Next.js, MySQL, MongoDB, Object Storage, Docker,
-                Gitlab CI/CD, Linux, HTML, CSS, Bootstrap, Tailwind
-              </p>
-              <h2 class="mt-2">Duties:</h2>
-              <ol class="px-4 text-secondary">
-                <li>Developed applications for several departments</li>
-                <li>
-                  Integrated the system with other services using RESTful API
-                </li>
-                <li>Maintenance the system</li>
-                <li>Setup pipeline using Gitlab CI/CD</li>
-                <li>Setup linux server</li>
-                <li>
-                  Increase security on the back-end and front-end (i.e., SQL
-                  Injection, CORS, CSP, etc.).
-                </li>
-              </ol>
-            </div>
-          </div>
-          <!-- ./list -->
-
-          <!-- list -->
-          <div class="gap-2 flex justify-center items-center mb-4">
-            <div
-              class="flex-none w-24 p-2 border border-gray-500 text-secondary text-center"
-            >
-              May 2015 <br />&darr;<br />Jun 2019
-            </div>
-            <div class="w-5 h-5 border border-gray-500 rounded-full"></div>
-            <div class="grow p-2 border-l border-gray-500">
-              <h1 class="text-2xl">Software Engineer</h1>
-              <h2 class="text-md">
-                Banda Aceh City Agency of Personnel and Human Resources
-                Development, Indonesia
-              </h2>
-              <p class="text-secondary">
-                <b>Tech stacks:</b> <br />
-                PHP, Codeigniter, Javascript, HTML, CSS, Bootstrap, JQuery,
-                MySQL, MongoDB, Linux
-              </p>
-              <h2 class="mt-2">Duties:</h2>
-              <ol class="px-4 text-secondary">
-                <li>Developed applications for internal and external users</li>
-                <li>Setup linux server</li>
-                <li>Maintenance the system</li>
-              </ol>
-            </div>
-          </div>
-          <!-- ./list -->
-
-          <!-- list -->
-          <div class="gap-2 flex justify-center items-center mb-4">
-            <div
-              class="flex-none w-24 p-2 border border-gray-500 text-secondary text-center"
-            >
-              March 2012 <br />&darr;<br />
-              Jun 2014
-            </div>
-            <div class="w-5 h-5 border border-gray-500 rounded-full"></div>
-            <div class="grow p-2 border-l border-gray-500">
-              <h1 class="text-2xl">Software Engineer</h1>
-              <h2 class="text-md">Syiah Kuala University, Indonesia</h2>
-              <p class="text-secondary">
-                <b>Tech stacks:</b> <br />
-                PHP, Codeigniter, Javascript, JQuery, MySQL, Linux, HTML, CSS,
-                Bootstrap
-              </p>
-              <h2 class="mt-2">Duties:</h2>
-              <ol class="px-4 text-secondary">
-                <li>
-                  Designed, developed and implemented high performance of
-                  Electronic Theses and Dissertations that using by students,
-                  lecturers and researchers.
-                </li>
-                <li>
-                  Establishing and managing a Linux server that operates the
-                  system.
-                </li>
-                <li>Maintenance the system</li>
-                <li>
-                  Increase security on the back-end and front-end (i.e., SQL
-                  Injection, CORS, etc.).
-                </li>
-              </ol>
-            </div>
-          </div>
-          <!-- ./list -->
-        </div>
-      </section>
-      <!-- ./Experiences -->
-    </div>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+      const root = ReactDOM.createRoot(document.getElementById("root"));
+      root.render(<Main />);
+    </script>
   </body>
 </html>

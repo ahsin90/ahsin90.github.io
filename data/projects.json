@@ -20,7 +20,7 @@
   {
     "title": "Just2bfit Content Management System",
     "thumbnail": "",
-    "description": "The Content Management System (CMS) is a tool for overseeing Just2bfit's content, such as posts, pages, videos, recipes, and more. It supports multiple languages and was created using Node.js, Express.js, MySQL, Redis, Nuxt.js, and Docker.",
+    "description": "The Content Management System (CMS) is a management tool for Just2bfit's content, such as posts, pages, videos, recipes, and more. It supports multiple languages and regions, it was created using Node.js, Express.js, MySQL, Redis, Nuxt.js, and Docker.",
     "client": "Just2bfit",
     "year": 2023,
     "location": "Netherlands",
@@ -117,6 +117,15 @@
     "url": "https://dalae.acehprov.go.id"
   },
   {
+    "title": "HOAX DB",
+    "thumbnail": "",
+    "description": "It is an aggregator system designed to collect information on hoaxes and misinformation from various sources. Citizens can also submit suspected information, which the government will then investigate and release the results.",
+    "client": "Aceh Provincial Government",
+    "year": 2021,
+    "location": "Banda Aceh, Indonesia",
+    "url": "https://hoaxdb.acehprov.go.id"
+  },
+  {
     "title": "Electronic Theses and Dissertation",
     "thumbnail": "",
     "description": "A hight performance application designed to manage digital files of theses and dissertations, utilized by tens of thousands of students, lecturers, and researchers. Students are required to upload their theses or dissertations after their final exams.",
@@ -135,6 +144,15 @@
     "url": "https://pustaka.feb.usk.ac.id/"
   },
   {
+    "title": "USK Integrated Library System (UILIS)",
+    "thumbnail": "",
+    "description": "UILIS is an information system designed to integrate library services at USK University. The library offers a variety of services, including electronic theses, an online catalog, electronic journals, eBooks, reporting, and more.",
+    "client": "Syiah Kuala University",
+    "year": 2012,
+    "location": "Aceh, Indonesia",
+    "url": "https://uilis.usk.ac.id/"
+  },
+  {
     "title": "USK Union Catalogue",
     "thumbnail": "",
     "description": "The aim is to make it easier to search catalogs in each library at Syiah Kuala University.",
@@ -142,5 +160,14 @@
     "year": 2012,
     "location": "Aceh, Indonesia",
     "url": "https://uilis.usk.ac.id/uuc/"
+  },
+  {
+    "title": "Open Educational Resources",
+    "thumbnail": "",
+    "description": "OER, or Open Educational Resources, aims to simplify the process for students, lecturers, and other academics to find the open resources they need. Librarians actively collecting these open resources and store them in the OER collection.",
+    "client": "Syiah Kuala University",
+    "year": 2012,
+    "location": "Aceh, Indonesia",
+    "url": "https://uilis.usk.ac.id/oer/"
   }
 ]

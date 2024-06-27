@@ -63,6 +63,15 @@
     "url": ""
   },
   {
+    "title": "Kwify",
+    "thumbnail": "",
+    "description": "Kiwify is a platform for selling online courses, allowing anyone to register to sell or purchase courses. In this project, I was responsible for developing several backend parts using Node.js, MySQL, and other technologies.",
+    "client": "Kwify",
+    "year": 2023,
+    "location": "Santa Catarina, Brazil",
+    "url": "https://kiwify.com.br/"
+  },
+  {
     "title": "Satu Data",
     "thumbnail": "",
     "description": "Satu Data is a platform by the Aceh Provincial Government for managing data from all regencies and departments before it is published to Open Data. This is dynamic application allows administrators to create forms dynamically. Satu data also integrated with several services, such as CKAN Open Data and Singgle Sign On, On this project i have been worked independently and deliver high-quality work. It was developed using Javascript, Node.js, React.js, Next.js, HTML, CSS, MySQL, Redis, Docker, and other technologies.",
@@ -124,6 +133,15 @@
     "year": 2021,
     "location": "Banda Aceh, Indonesia",
     "url": "https://hoaxdb.acehprov.go.id"
+  },
+  {
+    "title": "The Vaccination Registration Information System ",
+    "thumbnail": "",
+    "description": "The vaccination registration information system was designed to simplify the process for citizens in Aceh province to register for Covid-19 vaccinations. Used by tens of thousands during the pandemic, it offers features for both public users and administrators, including registration, printing registration numbers, a statistics dashboard, quota management, user management, etc.",
+    "client": "Aceh Provincial Government",
+    "year": 2021,
+    "location": "Banda Aceh, Indonesia",
+    "url": "https://regvaksin.acehprov.go.id"
   },
   {
     "title": "Electronic Theses and Dissertation",

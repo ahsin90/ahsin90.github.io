@@ -39,7 +39,16 @@
     "title": "Working Time Registration",
     "thumbnail": "",
     "description": "Working Time Registration is an application that aims to manage employee working hours at the hemlock company in the Netherlands. The features of this application consist of recording working hours, leave, recapitulation, etc.",
-    "client": "Hemlock",
+    "client": "Hemlock Group B.V.",
+    "year": 2023,
+    "location": "Netherlands",
+    "url": "https://www.hemlock.nl/en/"
+  },
+  {
+    "title": "Production Import",
+    "thumbnail": "",
+    "description": "The internal application to processes, calculates, and manages production data. It is developed using technologies such as Node.js, Express.js, MySQL, Vue.js, Nuxt.js, and others.",
+    "client": "Hemlock Group B.V.",
     "year": 2023,
     "location": "Netherlands",
     "url": ""
@@ -108,7 +117,7 @@
     "url": "https://ppid.acehprov.go.id"
   },
   {
-    "title": "PPID Integrated With Esign BSrE BSSN",
+    "title": "PPID Integrated with Esign BSrE BSSN",
     "thumbnail": "",
     "description": "Integrating the PPID system with the national Esign BSrE BSSN system, where every documents published by PPID can be digitally signed. This integration was carried out using a RESTful API.",
     "client": "Aceh Provincial Government",
@@ -135,6 +144,24 @@
     "url": "https://hoaxdb.acehprov.go.id"
   },
   {
+    "title": "Digital Library",
+    "thumbnail": "",
+    "description": "A digital library to manage all collections, library circulation and reporting in university. Developed using PHP, MySQL, Bootstrap, etc",
+    "client": "Syiah Kuala University",
+    "year": 2013,
+    "location": "Banda Aceh, Indonesia",
+    "url": "https://pustaka.feb.usk.ac.id/"
+  },
+  {
+    "title": "Academic Information System",
+    "thumbnail": "",
+    "description": "The application is designed to manage the entire study process from beginning to end.",
+    "client": "Art and Culture Institute",
+    "year": 2013,
+    "location": "Banda Aceh, Indonesia",
+    "url": "http://siakad.isbiaceh.ac.id/"
+  },
+  {
     "title": "The Vaccination Registration Information System ",
     "thumbnail": "",
     "description": "The vaccination registration information system was designed to simplify the process for citizens in Aceh province to register for Covid-19 vaccinations. Used by tens of thousands during the pandemic, it offers features for both public users and administrators, including registration, printing registration numbers, a statistics dashboard, quota management, user management, etc.",
@@ -142,6 +169,24 @@
     "year": 2021,
     "location": "Banda Aceh, Indonesia",
     "url": "https://regvaksin.acehprov.go.id"
+  },
+  {
+    "title": "LKH Dai (Cleric Daily Reporting)",
+    "thumbnail": "",
+    "description": "The application used by clerics to submit daily activity reports allows them to do so via a mobile app. Government department administrators then verify these reports and generate a summary.",
+    "client": "Aceh Provincial Government",
+    "year": 2022,
+    "location": "Banda Aceh, Indonesia",
+    "url": "https://lkhdai.acehprov.go.id"
+  },
+  {
+    "title": "SIMTANAH (Geographic Information System)",
+    "thumbnail": "",
+    "description": "An application for collecting and managing spatial data in the Aceh province area, used by the land department of the Aceh government. It is built using technologies such as Node.js, Express.js, React.js, Leaflet, MongoDB, and others.",
+    "client": "Aceh Provincial Government",
+    "year": 2020,
+    "location": "Banda Aceh, Indonesia",
+    "url": "https://simtanah.acehprov.go.id"
   },
   {
     "title": "Electronic Theses and Dissertation",
@@ -152,15 +197,7 @@
     "location": "Banda Aceh, Indonesia",
     "url": "https://etd.usk.ac.id/"
   },
-  {
-    "title": "Digital Library",
-    "thumbnail": "",
-    "description": "A digital library to manage all collections, library circulation and reporting in university. Developed using PHP, MySQL, Bootstrap, etc",
-    "client": "Syiah Kuala University",
-    "year": 2013,
-    "location": "Banda Aceh, Indonesia",
-    "url": "https://pustaka.feb.usk.ac.id/"
-  },
+
   {
     "title": "USK Integrated Library System (UILIS)",
     "thumbnail": "",
